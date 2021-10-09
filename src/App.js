@@ -1,23 +1,75 @@
-import logo from './logo.svg';
+import Navigation from './views/navigationBar/navigationBar'
 import './App.css';
+import AboutMe from './views/aboutMe/AboutMe'
+import Header from './views/header/Header';
+import Particles from "react-particles-js";
+import Technologies from './views/technologies/Technologies'
+import Portfolio from './views/portfolio/Portfolio'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header/>
+    <Navigation />
+    <Particles
+        params={{
+          particles: {
+            color: {
+              value: "#000000"
+            },
+            number: {
+              value: 160,
+              density: {
+                enable: false
+              }
+            },
+            size: {
+              value: 3,
+              random: true,
+              anim: {
+                speed: 4,
+                size_min: 0.3
+              }
+            },
+            line_linked: {
+              enable: false
+            },
+            move: {
+              random: true,
+              speed: 1,
+              direction: "top",
+              out_mode: "out"
+            }
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "bubble"
+              },
+              onclick: {
+                enable: true,
+                mode: "repulse"
+              }
+            },
+            modes: {
+              bubble: {
+                distance: 50,
+                duration: 2,
+                size: 0,
+                opacity: 0
+              },
+              repulse: {
+                distance: 200,
+                duration: 2
+              }
+            }
+          }
+        }}
+      />
+      <AboutMe />
+      <Technologies />
+      <Portfolio />
     </div>
   );
 }

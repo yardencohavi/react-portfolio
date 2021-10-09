@@ -1,0 +1,30 @@
+.about__container{
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about__container img{
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+.about__text{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+    .about__container{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 700px){
+    .about__text{
+        max-width: 300px;
+    }
+}
