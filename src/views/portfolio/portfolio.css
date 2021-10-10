@@ -4,7 +4,7 @@
 .portfolio__main__container h1,
 .portfolio__main__container p{
     text-align: center;
-    /* margin-top: 2rem; */
+    margin-top: 2rem;
 }
 
 #portfolio__card__container{
@@ -32,13 +32,8 @@
 }
 @media only screen and (max-width:600px){
     #portfolio__card__container{
-        width: 100px;
-        height: 100px;
+        width: 100%;
         padding: 0.5rem 2.5rem;
         border: none;
     }
-    .portfolio__main__container {
-        padding: 10px;
-    }
-
 }
