@@ -55,9 +55,6 @@ function Portfolio() {
     return (
         <div className="portfolio__main__container" id="portfolio">
             <h1>Portfolio</h1>
-            <p>My Github page
-                <a href="https://github.com/yardencohavi" target="_blank" rel="noreferrer">https://github.com/yardencohavi</a>
-            </p>
             <Container fluid="lg">
                 <Row>
                     {maped}

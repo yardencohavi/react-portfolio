@@ -3,8 +3,9 @@ import './App.css';
 import AboutMe from './views/aboutMe/AboutMe'
 import Header from './views/header/Header';
 import Particles from "react-particles-js";
-import Technologies from './views/technologies/Technologies'
+import Skills from './views/skills/Skills'
 import Portfolio from './views/portfolio/Portfolio'
+import ContactMe from './views/contectMe/ContactMe';
 
 function App() {
   return (
@@ -68,8 +69,9 @@ function App() {
         }}
       />
       <AboutMe />
-      <Technologies />
+      <Skills />
       <Portfolio />
+      <ContactMe/>
     </div>
   );
 }

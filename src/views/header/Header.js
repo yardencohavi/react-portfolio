@@ -4,7 +4,7 @@ import './header.css'
 
 function Header() {
     return (
-        <div className="main-info">
+        <div className="main-info" id="home">
             <h1>Hello</h1>
             <Typed
                 strings={[

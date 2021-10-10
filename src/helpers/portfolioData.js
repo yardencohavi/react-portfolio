@@ -5,8 +5,8 @@ import yogaStore from '../images/projectsicon/yogaStore.gif'
 
 const portfolioData = [
     {
-        image:budgety,
-        title:'Budgety',
+        image:yogaStore,
+        title:'Yoga Store',
         // link:'',
         // desc:'',
         // summary:'',
@@ -21,21 +21,21 @@ const portfolioData = [
         // tech:''
     },
     {
-        image:rock,
-        title:'Rock Pepper Scissors',
+        image:budgety,
+        title:'Budgety',
         // link:'',
         // desc:'',
         // summary:'',
         // tech:''
     },
     {
-        image:yogaStore,
-        title:'Yoga Store',
+        image:rock,
+        title:'Rock Pepper Scissors',
         // link:'',
         // desc:'',
         // summary:'',
         // tech:''
-    },
+    }
 
 ]
 

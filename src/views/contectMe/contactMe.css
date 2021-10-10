@@ -1,0 +1,53 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.contact__container{
+    background-color: #F9F9F9;
+}
+.form__container{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__container textarea{
+    height: 100px;
+}
+
+.form-control {
+    position: relative;
+}
+.has-feedback{
+    position: relative;
+}
+.form-group {
+    width: 50%;
+}
+.footer{
+    background-color: var(--nav-color);
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+.social-links{
+    display: inline-flex;
+    gap: 22px;
+    font-size: 30px;
+}
+.social-links a {
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    color: white;
+}
+.bi{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-size: 1.2rem
+}
+.btn-secondary{
+    margin: 15px;
+}

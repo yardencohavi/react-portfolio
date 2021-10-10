@@ -1,11 +1,11 @@
 import React from 'react'
 import DevIcon from "devicon-react-svg";
 import {techs} from '../../helpers/techs'
-import './technologies.css'
+import './skills.css'
 
-function Technologies() {
+function Skills() {
     return (
-        <div className="technologies__container" id="technologies">
+        <div className="technologies__container" id="skills">
            <div>
                <h1 style={{textAlign:'center'}}>Skills</h1>
            </div>
@@ -23,4 +23,4 @@ function Technologies() {
     )
 }
 
-export default Technologies
+export default Skills
