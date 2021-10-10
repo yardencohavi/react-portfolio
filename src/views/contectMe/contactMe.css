@@ -36,11 +36,13 @@
     display: inline-flex;
     gap: 22px;
     font-size: 30px;
+    
 }
 .social-links a {
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     color: white;
+    
 }
 .bi{
     position: absolute;
