@@ -6,9 +6,9 @@
     text-align: center;
     /* margin-top: 2rem; */
 }
-.portfolio__main__container{
+/* .portfolio__main__container{
     padding: 70px;
-}
+} */
 #portfolio__card__container{
     width: 50%;
     padding: 10px;
@@ -34,7 +34,7 @@
 }
 @media only screen and (max-width:600px){
     #portfolio__card__container{
-        /* width: 70%; */
+        width: 100%;
         padding: 0.5rem 2.5rem;
         border: none;
     }
