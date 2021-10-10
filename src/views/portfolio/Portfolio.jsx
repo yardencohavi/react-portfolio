@@ -54,7 +54,7 @@ function Portfolio() {
     })
     return (
         <div className="portfolio__main__container" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1 style ={{paddingBottom:'15px'}}>Portfolio</h1>
             <Container fluid="lg">
                 <Row>
                     {maped}

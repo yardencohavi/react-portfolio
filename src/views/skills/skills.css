@@ -43,4 +43,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .technologies__container{
+        padding: 2rem;
+    }
 }

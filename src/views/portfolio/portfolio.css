@@ -4,7 +4,10 @@
 .portfolio__main__container h1,
 .portfolio__main__container p{
     text-align: center;
-    margin-top: 3rem;
+    /* margin-top: 2rem; */
+}
+.portfolio__main__container{
+    padding: 70px;
 }
 #portfolio__card__container{
     width: 50%;
@@ -31,8 +34,16 @@
 }
 @media only screen and (max-width:600px){
     #portfolio__card__container{
-        width: 100%;
+        width: 70%;
         padding: 0.5rem 2.5rem;
         border: none;
+    }
+    .portfolio__main__container {
+        padding: 10px;
+    }
+    .row{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
     }
 }
