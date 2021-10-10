@@ -7,7 +7,7 @@ export const ContactMe = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
     emailjs.sendForm('service_yardencohavi', 'template_p85ynum', form.current, 'user_aRg4UuWeOM06xzdUKmSsO')
       .then((result) => {
           console.log(result.text);
@@ -15,6 +15,7 @@ export const ContactMe = () => {
           console.log(error.text);
       });
   };
+  document.querySelectorAll('input').values ='';
 
   return (
     <div className="contact__container" id="contact">
@@ -23,12 +24,12 @@ export const ContactMe = () => {
           <form className="form" ref={form} onSubmit={sendEmail}>
               <div className="form-group has-feedback">
                   <label for="name"></label>
-                  <input type="text" className="form-control" id="name" placeholder="Name" name="user_name" required/>
+                  <input type="text" className="form-control" id="name" placeholder="Your name" name="user_name" required/>
                   <i class="bi bi-person-fill" role="img" aria-label="GitHub"></i>
               </div>
               <div className="form-group has-feedback">
                   <label for="email"></label>
-                  <input type="email" className="form-control" id="email" placeholder="Enter email" name="user_email" required/>
+                  <input type="email" className="form-control" id="email" placeholder="Enter your email" name="user_email" required/>
                   <i class="bi bi-envelope-fill"></i>
               </div>
               <div className="form-group has-feedback">
@@ -36,7 +37,7 @@ export const ContactMe = () => {
                 <textarea className="form-control" rows="8" id="message2" placeholder="Your Message" name="message" required></textarea>
                 <i class="bi bi-pencil-fill"></i>
               </div>
-              <input type="submit" value="Send" className="btn btn-secondary"/>
+              <input type="submit" value="Send me" className="btn btn-secondary"/>
         </form>
     </div>
     <div className="footer">
