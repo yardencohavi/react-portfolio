@@ -38,5 +38,13 @@ export const techs = [
     {
         name: 'HTML 5',
         iconName: 'html5'
+    },
+    {
+        name: 'React',
+        iconName: 'react'
+    },
+    {
+        name: 'Git',
+        iconName: 'git'
     }
 ]

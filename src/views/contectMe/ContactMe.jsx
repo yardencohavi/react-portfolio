@@ -20,7 +20,7 @@ export const ContactMe = () => {
   return (
     <div className="contact__container" id="contact">
       <div className="form__container">
-          <h1>Contact Me</h1>
+          <h1 style={{paddingTop:'27px'}}>Contact Me</h1>
           <form className="form" ref={form} onSubmit={sendEmail}>
               <div className="form-group has-feedback">
                   <label htmlFor="name"></label>
@@ -41,12 +41,12 @@ export const ContactMe = () => {
         </form>
     </div>
     <div className="footer">
-      <h1 style={{paddingTop:'15px'}}>Connect with me</h1>
+      <h1 style={{paddingTop:'27px'}}>Connect with me</h1>
       <ul className="social-links" style={{listStyle:"none"}}>
-        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yardencohavi/" className="pi bi-linkedin">text</a>
-        <a target="_blank" rel="noreferrer" href="https://github.com/yardencohavi" className="pi bi-github">text</a>
-        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/yardencohavi/" className="pi bi-instagram">text</a>
-        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/yardencohavi/" className="pi bi-facebook">text</a>
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yardencohavi/" className="pi bi-linkedin"><div className="text__hide">text</div></a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/yardencohavi" className="pi bi-github"><div className="text__hide">text</div></a>
+        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/yardencohavi/" className="pi bi-instagram"><div className="text__hide">text</div></a>
+        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/yardencohavi/" className="pi bi-facebook"><div className="text__hide">text</div></a>
       </ul>
     </div>      
   </div>

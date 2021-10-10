@@ -14,7 +14,7 @@ function Skills() {
                    return(
                     <div key={idx} className="tech__card">
                         <DevIcon className="tech__icon" icon={e.iconName} />
-                        <span style={{margin:'5px',fontSize:'1.5rem'}}>{e.name}</span>
+                        <span style={{fontSize:'1rem'}}>{e.name}</span>
                     </div>
                    )
                })}

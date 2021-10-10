@@ -21,3 +21,10 @@
     color: white;
 
 }
+.icon__cv {
+    color: white;
+    font-size: 23px;
+}
+.text__hide{
+    visibility:hidden;
+}
