@@ -10,8 +10,8 @@ function Header() {
                 strings={[
                     '',
                     'I am Yarden Cohavi',
-                    'Full-stack Developer',
-                    '3nd. year Computer Science student']}
+                    'Looking for a role as software engineer',
+                    '3rd. year Computer Science student']}
                     typeSpeed={40}
                     backSpeed={50}
                     loop >
