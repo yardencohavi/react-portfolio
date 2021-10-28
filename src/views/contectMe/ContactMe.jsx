@@ -45,7 +45,6 @@ export const ContactMe = () => {
       <ul className="social-links" style={{listStyle:"none"}}>
         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yardencohavi/" className="pi bi-linkedin"><div className="text__hide">text</div></a>
         <a target="_blank" rel="noreferrer" href="https://github.com/yardencohavi" className="pi bi-github"><div className="text__hide">text</div></a>
-        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/yardencohavi/" className="pi bi-instagram"><div className="text__hide">text</div></a>
         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/yardencohavi/" className="pi bi-facebook"><div className="text__hide">text</div></a>
       </ul>
     </div>      

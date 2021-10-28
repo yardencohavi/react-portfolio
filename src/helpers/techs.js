@@ -16,8 +16,8 @@ export const techs = [
         iconName: 'javascript'
     },
     {
-        name: 'Qquery',
-        iconName: 'jquery'
+        name: 'Postgresql',
+        iconName: 'postgresql'
     },
     {
         name: 'Nodejs',
