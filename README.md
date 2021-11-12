@@ -19,6 +19,6 @@ Visit my portfolio: https://yardencohaviportfolio.netlify.app/
 
 ## Tech stack
 1. HTML
-2. SCSS
+2. CSS
 3. REACT
 
