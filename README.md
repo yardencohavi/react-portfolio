@@ -9,8 +9,7 @@
 Visit my portfolio: https://yardencohaviportfolio.netlify.app/
 
 ## Table Of Contents
-- [Loop-machine](#loop-machine)
-    - [To run the app, please enter the following commands in this order:](#to-run-the-app-please-enter-the-following-commands-in-this-order)
+   - [To run the app, please enter the following commands in this order:](#to-run-the-app-please-enter-the-following-commands-in-this-order)
   - [Table Of Contents](#table-of-contents)
   - [Screenshot](#screenshot)
   - [Tech stack](#tech-stack)
@@ -20,6 +19,6 @@ Visit my portfolio: https://yardencohaviportfolio.netlify.app/
 
 ## Tech stack
 1. HTML
-2. SCSS
+2. CSS
 3. REACT
 
