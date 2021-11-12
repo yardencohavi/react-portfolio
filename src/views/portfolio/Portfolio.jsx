@@ -26,8 +26,9 @@ function Portfolio() {
                     {data.title}
                 </Modal.Title>
                  </Modal.Header>
-                 <Modal.Body>
+                 <Modal.Body className="data-body">
                      <Image src={data.image} style={{width:'200px'}}/>
+                     <p className="data-desc">{data.desc}</p>
                  </Modal.Body>
                   <Modal.Footer>
                     <Button onClick={() => setModalShow(false)}>Close</Button>
@@ -42,7 +43,8 @@ function Portfolio() {
                     onClick={() => {
                         setTempData({
                             image: e.image,
-                            title: e.title
+                            title: e.title,
+                            desc: e.desc
                         })
                         setModalShow(true)
                     }}

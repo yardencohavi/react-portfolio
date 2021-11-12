@@ -30,6 +30,13 @@
 .modal-backdrop.show{
     opacity: 0.1 !important;
 }
+.data-body{
+    display: flex;
+    flex-direction: row;
+}
+.data-desc{
+   padding :15px;
+}
 @media only screen and (max-width:600px){
     #portfolio__card__container{
         width: 100%;
