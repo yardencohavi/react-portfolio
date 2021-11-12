@@ -9,7 +9,6 @@
 Visit my portfolio: https://yardencohaviportfolio.netlify.app/
 
 ## Table Of Contents
-- [Loop-machine](#loop-machine)
     - [To run the app, please enter the following commands in this order:](#to-run-the-app-please-enter-the-following-commands-in-this-order)
   - [Table Of Contents](#table-of-contents)
   - [Screenshot](#screenshot)
