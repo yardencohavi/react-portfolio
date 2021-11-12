@@ -9,7 +9,7 @@
 Visit my portfolio: https://yardencohaviportfolio.netlify.app/
 
 ## Table Of Contents
-    - [To run the app, please enter the following commands in this order:](#to-run-the-app-please-enter-the-following-commands-in-this-order)
+   - [To run the app, please enter the following commands in this order:](#to-run-the-app-please-enter-the-following-commands-in-this-order)
   - [Table Of Contents](#table-of-contents)
   - [Screenshot](#screenshot)
   - [Tech stack](#tech-stack)
